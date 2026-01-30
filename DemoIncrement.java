@@ -7,10 +7,16 @@ public class DemoIncrement {
         int x = 3;
         int y = ++x + 5;
 
+        int p = 3;
+        ++p;
+        int q = p + 5; 
+
         System.out.print("a: " + a);
         System.out.print(", b: " + b);
         System.out.print(", x: " + x);
         System.out.println(", y: " + y);
+        System.out.println(",p: " + p);
+        System.out.println(",q:" + q);
 
         // Replace the xxxxx in the following with the correct term
         System.out.println("i++ means post-increment");
