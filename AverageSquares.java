@@ -26,11 +26,12 @@ public class AverageSquares {
         double result = 0;
         double i = startNum;
         double difference = endNum - startNum;
-        while (i<=endNum){
+        do {
             double square = i * i;
             result = result + square;
             i = i + 1;
-        }
+        }while (i<=endNum);
+
         double avg_Square = result / difference;
         System.out.println(avg_Square);
     }
